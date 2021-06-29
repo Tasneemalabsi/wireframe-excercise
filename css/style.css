@@ -1,0 +1,100 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    height: 1500px;
+    padding: 10%;
+}
+
+
+#hero {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+article{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .banner {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+  section img {
+    float: left;
+    width: 50%;
+  
+
+    
+  }
+  section div {
+    float: right;
+    width: 350px;
+  }
+
+  section {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+  h2 {
+      font-size: xx-large;
+  }
+
+  .button {
+    border: gray;
+    border-style: solid;
+    border-radius: 5%;
+    display: inline-block;
+    
+    width: auto;
+    text-decoration: none;
+    background-color: gray;
+    color: black;
+    background-size: 100px;
+    margin: 5%;
+  }
+
+  nav ul li{
+    display: inline-block;
+    padding-top: 5px;
+    font-size: 16px;
+    line-height: 1.2em;
+    justify-content: space-between;
+    }
+    header {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    line-break: strict;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    nav {
+    float: right;
+    width: 60%;
+    }
+    
+    nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 7%;
+    }
+
+    footer {
+      width: 100%;
+      background-color: gray;
+      clear: both;
+      height: 100px;
+    }
+
+
+  
+
+
+
