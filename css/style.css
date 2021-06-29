@@ -8,8 +8,58 @@ body {
     padding: 10%;
 }
 
+header {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  justify-content: space-between;
+  background-color: black;
+  margin-bottom: 2%;
+  }
+  
+nav ul li{
+  display: inline;
+  
+  font-size: 16px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  }
+  
+
+  nav {
+  float: right;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+  }
+  
+  nav ul li a {
+  text-decoration: none;
+  color: gray;
+  }
+
+  .logo {
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-left: 10px;
+    float: left;
+    width: 40%;
+    height: 70px;
+    clear: both;
+    margin-top: 10px;
+  
+  }
+
+
 
 #hero {
+  margin-bottom: 2%;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -19,6 +69,7 @@ article{
     display: flex;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2%;
   }
   
   .banner {
@@ -29,6 +80,7 @@ article{
   section img {
     float: left;
     width: 50%;
+    margin-bottom: 2%;
   
 
     
@@ -41,9 +93,11 @@ article{
   section {
       margin-left: 10%;
       margin-right: 10%;
+      margin-bottom: 2%;
   }
   h2 {
       font-size: xx-large;
+      margin-bottom: 10px;
   }
 
   .button {
@@ -59,39 +113,19 @@ article{
     background-size: 100px;
     margin: 5%;
   }
-
-  nav ul li{
-    display: inline-block;
-    padding-top: 5px;
-    font-size: 16px;
-    line-height: 1.2em;
-    justify-content: space-between;
-    }
-    header {
-    display: flex;
-    height: 100px;
-    width: 100%;
-    line-break: strict;
-    margin-left: 10%;
-    margin-right: 10%;
-    }
-    nav {
-    float: right;
-    width: 60%;
-    }
-    
-    nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 7%;
-    }
-
+  
     footer {
       width: 100%;
       background-color: gray;
       clear: both;
       height: 100px;
+      margin-top: 2%;
+      margin-left: 10%;
+      margin-right: 10%;
     }
+
+
+
 
 
   
