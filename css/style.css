@@ -4,21 +4,21 @@
 }
 
 body {
-    height: 1450px;
+    height: 1540px;
 }
 
 header {
   display: flex;
   height: 120px;
   width: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: auto;
+  margin-right: auto;
   background-color: black;
   margin-bottom: 2%;
   margin-top: 10px;
   padding-top: 10px;
   width: 1150px;
-  }
+}
   
 nav ul li{
   display: inline;
@@ -63,16 +63,21 @@ nav ul li{
 
 #hero {
   margin-bottom: 2%;
-    margin-left: 16%;
-    margin-right: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
 }
 
 
 article{
     display: flex;
-    margin-left: 16%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 2%;
+    width: 85%;
+    height: 85%;
   }
   
   .banner {
@@ -82,21 +87,25 @@ article{
 
   section img {
     float: left;
-    width: 50%;
     margin-bottom: 2%;
-  
-
-    
+    margin-left: auto;
+    position: relative;
+    width: 50%;
+    height: 300px;
   }
   section div {
     float: right;
     width: 350px;
+    margin-right: auto;
+    position: relative;
+    padding-left: 40px;
   }
 
   section {
-      margin-left: 16%;
-      margin-right: 10%;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 2%;
+      display: flex;
   }
   h2 {
       font-size: xx-large;
@@ -104,16 +113,18 @@ article{
   }
 
   .button {
-    border: gray;
-    border-style: solid;
+    border:lightgray;
+    border-style:unset;
     border-radius: 5%;
     display: inline-block;
     
-    width: auto;
+    width: 150px;
+    height: 30px;
     text-decoration: none;
-    background-color: gray;
+    background-color:lightgray;
     color: black;
-    background-size: 100px;
+    text-align: center;
+    background-size: 600px;
     margin: 5%;
   }
   
@@ -121,11 +132,12 @@ article{
       width: 100%;
       background-color: gray;
       clear: both;
-      height: 100px;
+      height: 110px;
       margin-top: 2%;
-      margin-left: 10%;
-      margin-right: 10%;
+      margin-left: auto;
+      margin-right: auto;
       margin-bottom: 4%;
+      width: 1140px;
     }
 
 
